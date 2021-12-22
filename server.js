@@ -6,9 +6,10 @@ const musics = [
     {name: "Back in back" , artist: "AC/DC" , type: "Rock"},
     {name: "Easy on me" , arttist: "Adele" , type: "Pop"},
     {name: "Levitating" , arttist: "Dua Lipa" , type: "Pop"},
-    {name: "FRIENDS" , arttist: "Marshmello & Anne-Marie" , type: "Pop"}
-
+    {name: "FRIENDS" , arttist: "Marshmello & Anne-Marie" , type: "Pop"},
+    {name: "Doo white" ,arttist: "Young Ohm" , type: "HipHop"}
 ];
+
 //schema
 const typeDefs = gql`
     type Query {
